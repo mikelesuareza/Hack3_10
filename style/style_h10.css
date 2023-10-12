@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "inter", sans-serif;
+}
+
+header{
+    height: 100vh;
+}
+
+.contenedor1{
+    padding: 3rem 8rem;
+    height: 100%;
+    display: flex;
+    background-image: url(/H10_HTML/img/2.png);
+    background-size: cover;
+    z-index: -1;
+}
+
+
+.contenedor1>div:nth-child(1){
+    height: 100%;
+}
+
+input[type="boton"]{
+    width: 9rem;
+    height: 4rem;
+    padding: 2.2rem;
+    border-radius: 50px;
+    color: white;
+}
+
+.boton1{
+    margin-top: 25px;
+    background-color: black;
+}
+
+h1{
+    margin-top: 2rem;
+    margin-left: 60px;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 100px;
+}
+
+h3{
+    margin-top: 1rem;
+    margin-left: 60px;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.contenedor1>div:nth-child(2){
+    margin: 5rem 0 0 15rem;
+    width: 300px;
+    height: 300px;
+    background-color: #00BF63;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+
+}
+
+.contenedor1>div:nth-child(2)>span:nth-child(1){
+    color: white;
+    font-size: 60px;
+}
+
+.contenedor1>div:nth-child(2)>span:nth-child(2){
+    font-size: 40px;
+    color: white;
+}
+
+
+
+.contenedor2{
+    height: 100vh;
+    padding: 3rem 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.contenedor2>div:nth-child(n){
+    height: 58%;
+    width: 27%;
+}
+
+.contenedor2>div:nth-child(n)>div{
+    height: 70%;
+    margin-bottom: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contenedor2>div:nth-child(1)>div{
+    background-image: url(/H10_HTML/img/1.png);
+}
+
+.contenedor2>div:nth-child(2)>div{
+    background-image: url(/H10_HTML/img/3.png);
+}
+
+.contenedor2>div:nth-child(3)>div{
+    background-image: url(/H10_HTML/img/4.png);
+}
+
+.contenedor2>div:nth-child(4)>div{
+    background-image: url(/H10_HTML/img/5.png);
+}
+
+.contenedor2>div:nth-child(5)>div{
+    background-image: url(/H10_HTML/img/6.png);
+}
+
+.contenedor2>div:nth-child(6)>div{
+    background-image: url(/H10_HTML/img/16.png);
+}
+
+.contenedor2>div>h6{
+    font-size: 25px;
+}
+
+.descuento{
+    text-decoration: line-through;
+}
+
+.nuevo{
+    margin-left: 10px;
+}
+
+footer{
+    height: 20vh;
+    margin: 3rem 2rem 0 2rem;
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+footer>input{
+   margin-left: 8rem;
+   background-color: #00BF63; 
+}
